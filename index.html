@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Persianas Vizual Mazatlán. Persianas, cortinas y soluciones a la medida para tus espacios.">
+    <meta name="theme-color" content="#111111">
+    <title>Persianas Vizual | Mazatlán</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container top-bar__inner">
+
+            <span class="top-bar__message">
+                Persianas y cortinas a la medida en Mazatlán
+            </span>
+
+            <div class="top-bar__contact">
+
+                <a href="tel:+526691632351" class="top-bar__link">
+                    <i class="bi bi-telephone-fill"></i>
+                    <span>669 163 2351</span>
+                </a>
+
+                <span class="top-bar__divider"></span>
+
+                <a
+                href="#"
+                class="top-bar__link top-bar__whatsapp"
+                data-whatsapp="cotizar">
+                <i class="bi bi-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- HEADER -->
+<header class="site-header" id="site-header">
+    <div class="container header__inner">
+        <a class="brand" href="#inicio" aria-label="Persianas Vizual">
+            <img class="brand__logo" src="assets/logo/logo_header.png" alt="Vizual Persianas + Tapiz">
+        </a>
+
+        <nav class="desktop-nav" aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#presencia">Presencia</a>
+            <a href="#proceso">Así de fácil</a>
+            <a href="#contacto">Contacto</a>
+            <a class="btn btn--yellow btn--small" data-whatsapp="cotizar" href="#">Cotiza gratis<i class="bi bi-whatsapp"></i></a>
+        </nav>
+
+        <button class="menu-toggle" id="menu-toggle" type="button"
+        aria-label="Abrir menú" aria-controls="mobile-menu" aria-expanded="false">
+        <i class="bi bi-list"></i>
+    </button>
+</div>
+</header>
+
+<!-- MOBILE MENU -->
+<aside class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu__top">
+        <span class="mobile-menu__label"></span>
+        <button class="mobile-menu__close" id="menu-close" type="button" aria-label="Cerrar menú"><i class="bi bi-x-lg"></i></button>
+    </div>
+
+    <nav class="mobile-menu__nav" aria-label="Navegación móvil">
+        <a href="#inicio"><span>Inicio</span></a>
+        <a href="#productos"><span>Productos</span></a>
+        <a href="#nosotros"><span>Nosotros</span></a>
+        <a href="#presencia"><span>Presencia</span></a>
+        <a href="#proceso"><span>Así de fácil</span></a>
+        <a href="#contacto"><span>Contacto</span></a>
+    </nav>
+
+    <a class="btn btn--yellow btn--large mobile-menu__cta" data-whatsapp="cotizar" href="#">Cotiza gratis <i class="bi bi-whatsapp"></i></a>
+</aside>
+
+<main>
+    <!-- HERO -->
+    <section class="hero section-dark" id="inicio">
+        <div class="hero__image">
+            <img src="assets/images/hero.jpg" alt="Sala con persianas Sheer Elegance instaladas" class="hero__photo">
+        </div>
+        <div class="hero__overlay"></div>
+
+        <div class="container hero__content">
+            <div class="hero__copy reveal">
+                <div class="eyebrow">
+                    <span class="eyebrow__line"></span>
+                    PERSIANAS VIZUAL · MAZATLÁN
+                </div>
+
+                <h1>Dale a tu hogar<br><em>el toque que se merece.</em></h1>
+
+                <p>
+                    Persianas y cortinas a la medida para darle a tus espacios el estilo que buscas.
+                </p>
+
+                <div class="hero__actions">
+                    <a class="btn btn--yellow btn--large" href="https://cotiza.persianasvizual.com/">Haz tu cotización <i class="bi bi-arrow-up-right"></i></a>
+                    <a class="btn btn--light btn--large" href="#productos">Ver productos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="section section-white products-section" id="productos">
+        <div class="container products-section__inner">
+            <div class="section-heading reveal">
+                <div>
+                    <div class="eyebrow eyebrow--dark">
+                        <span class="eyebrow__line"></span>
+                        NUESTROS PRODUCTOS
+                    </div>
+                    <h2>Persianas para<br><em>cada espacio.</em></h2>
+                </div>
+                <p>Elige entre diferentes estilos, telas y opciones para encontrar la que mejor va contigo.</p>
+            </div>
+
+            <!-- Los 4 productos permanecen en una sola fila en desktop -->
+            <div class="products-row">
+                <article class="product-card reveal">
+                    <div class="product-card__image product-image--sheer">
+                        <img src="assets/images/sheer.png" alt="Persiana Sheer Elegance">
+                        <span class="product-card__index"></span>
+                        <!-- <span class="product-card__badge">MÁS VENDIDA</span> -->
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__category">PERSIANA</span>
+                        <h3>Sheer Elegance</h3>
+                        <p>Control de luz y privacidad con un diseño moderno.</p>
+                        <button class="product-card__link" data-product="sheer" type="button">Ver más <i class="bi bi-arrow-up-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="product-card reveal reveal--delay-1">
+                    <div class="product-card__image product-image--roller">
+                        <img src="assets/images/enrollable.png" alt="Persiana Enrollable">
+                        <span class="product-card__index"></span>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__category">PERSIANA</span>
+                        <h3>Enrollables</h3>
+                        <p>Una solución limpia y moderna para cualquier ambiente.</p>
+                        <button class="product-card__link" data-product="roller" type="button">Ver más <i class="bi bi-arrow-up-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="product-card reveal reveal--delay-2">
+                    <div class="product-card__image product-image--curtain">
+                        <img src="assets/images/cortina.png" alt="Cortinas">
+                        <span class="product-card__index"></span>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__category">CORTINA</span>
+                        <h3>Cortinas</h3>
+                        <p>Tergal, Dimout y Blackout.</p>
+                        <button class="product-card__link" data-product="curtain" type="button">Ver más <i class="bi bi-arrow-up-right"></i></button>
+                    </div>
+                </article>
+
+                <article class="product-card reveal reveal--delay-3">
+                    <div class="product-card__image product-image--wallpaper">
+                        <img src="assets/images/tapiz.png" alt="Papel Tapiz">
+                        <span class="product-card__index"></span>
+                    </div>
+                    <div class="product-card__body">
+                        <span class="product-card__category">PAPEL TAPIZ</span>
+                        <h3>Papel Tapiz</h3>
+                        <p>Texturas y patrones para transformar tus paredes.</p>
+                        <button class="product-card__link" data-product="wallpaper" type="button">Ver más <i class="bi bi-arrow-up-right"></i></button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section section-light-gray about" id="nosotros">
+        <div class="container about__inner">
+            <div class="about__copy reveal">
+                <div class="eyebrow eyebrow--dark">
+                    <span class="eyebrow__line"></span>
+                    POR QUÉ VIZUAL
+                </div>
+                <h2>Hacemos que elegir tus persianas <br><em>sea fácil.</em></h2>
+                <p>
+                    Te ayudamos desde la elección hasta la instalación, buscando que el resultado quede justo como lo imaginaste.
+                </p>
+                <a class="text-link" href="#contacto">Hablemos de tu espacio <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+
+            <div class="about__list reveal reveal--delay">
+                <article class="about-item">
+                    <span class="feature-bullet"></span>
+                    <div>
+                        <h3>A la medida</h3>
+                        <p>Cada ventana es diferente. Tomamos las medidas de tu espacio para que tus persianas queden como deben.</p>
+                    </div>
+                </article>
+                <article class="about-item">
+                    <span class="feature-bullet"></span>
+                    <div>
+                        <h3>Visita sin costo</h3>
+                        <p>Vamos hasta tu domicilio para conocer el espacio y mostrarte las opciones.</p>
+                    </div>
+                </article>
+                <article class="about-item">
+                    <span class="feature-bullet"></span>
+                    <div>
+                        <h3>Instalación incluida</h3>
+                        <p>Nosotros nos encargamos de instalar tus persianas.</p>
+                    </div>
+                </article>
+                <article class="about-item">
+                    <span class="feature-bullet"></span>
+                    <div>
+                        <h3>Experiencia local</h3>
+                        <p>Llevamos años trabajando en Mazatlán y ya son más de 2,500 persianas instaladas.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRESENCIA -->
+    <section class="section section-dark presence" id="presencia">
+        <div class="container presence__inner">
+
+            <div class="section-heading presence__heading reveal">
+                <div>
+                    <div class="eyebrow">
+                        <span class="eyebrow__line"></span>
+                        PRESENCIA
+                    </div>
+
+                    <h2>
+                        Nuestra presencia<br>
+                        <em>en Mazatlán.</em>
+                    </h2>
+                </div>
+
+                <p>
+                    Ya hemos llevado Persianas Vizual a hogares, departamentos, oficinas y espacios vacacionales de toda la ciudad.
+                </p>
+            </div>
+
+            <div class="presence__content reveal">
+
+                <!-- MAPA -->
+                <div class="presence__map">
+
+                    <picture>
+                        <source
+                        media="(max-width: 767px)"
+                        srcset="assets/images/movil.png">
+
+                        <img
+                        src="assets/images/desktop.png"
+                        alt="Mapa de Mazatlán con zonas donde Persianas Vizual tiene presencia"
+                        loading="lazy">
+                    </picture>
+
+                    <div class="presence__stat">
+                        <strong>+2,500</strong>
+
+                        <span>
+                            persianas instaladas<br>
+                            en Mazatlán
+                        </span>
+                    </div>
+
+                </div>
+
+                <!-- INFORMACIÓN -->
+                <div class="presence__copy">
+
+                    <div class="presence__stat-mobile">
+                        <strong>+2,500</strong>
+
+                        <span>
+                            persianas instaladas<br>
+                            en Mazatlán
+                        </span>
+                    </div>
+
+                    <p>
+                        Nuestra experiencia está en toda la ciudad:
+                        hogares, departamentos, oficinas y espacios vacacionales.
+                    </p>
+
+                    <div class="presence__zones">
+                        <span>Pradera Dorada</span>
+                        <span>Cantera</span>
+                        <span>Hacienda del Seminario</span>
+                        <span>El CID</span>
+                        <span>Real del Valle</span>
+                        <span>Sábalo Country</span>
+                        <span>Villas del Rey</span>
+                        <span>Centro</span>
+                        <span>y más</span>
+                    </div>
+
+                    <a class="btn btn--yellow" data-whatsapp="cotizar" href="#">
+                        Quiero cotizar
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RESEÑAS -->
+    <section class="section reviews" id="resenas">
+
+        <div class="container">
+
+            <div class="section-heading reviews__heading reveal">
+
+                <div>
+                    <div class="eyebrow eyebrow--dark">
+                        <span class="eyebrow__line"></span>
+                        LO QUE DICEN NUESTROS CLIENTES
+                    </div>
+
+                    <h2>Ellos ya confiaron<br><em>en Vizual.</em></h2>
+                </div>
+
+                <p>
+                    Pero mejor que te lo contemos nosotros,
+                    que te lo cuenten ellos.
+                </p>
+
+            </div>
+
+            <div class="reviews__slider reveal">
+
+                <button
+                class="reviews__arrow reviews__arrow--prev"
+                type="button"
+                aria-label="Reseña anterior">
+                <i class="bi bi-arrow-left"></i>
+            </button>
+
+            <div class="reviews__viewport">
+
+                <div class="reviews__track">
+
+                    <!-- RESEÑA 01 -->
+                    <article class="review-card">
+
+                        <div class="review-card__stars">
+                            ★★★★★
+                        </div>
+
+                        <p class="review-card__text">
+                            “Excelente trabajo, 100% recomendado.”
+                        </p>
+
+                        <div class="review-card__author">
+                            <strong>Maria V.</strong>
+                            <span>Cliente de Persianas Vizual</span>
+                        </div>
+
+                    </article>
+
+
+<!-- RESEÑA 02 -->
+<article class="review-card">
+
+    <div class="review-card__stars">
+        ★★★★★
+    </div>
+
+    <p class="review-card__text">
+        “Excelente servicio, muy bonitas. Súper recomendados.”
+    </p>
+
+    <div class="review-card__author">
+        <strong>Elisa S.</strong>
+        <span>Cliente de Persianas Vizual</span>
+    </div>
+
+</article>
+
+
+<!-- RESEÑA 03 -->
+<article class="review-card">
+
+    <div class="review-card__stars">
+        ★★★★★
+    </div>
+
+    <p class="review-card__text">
+        “Excelente trabajo, con mucha variedad, muy amables al atenderte
+        y trabajo rápido y garantizado. 100% recomendado.”
+    </p>
+
+    <div class="review-card__author">
+        <strong>Erick H.</strong>
+        <span>Cliente de Persianas Vizual</span>
+    </div>
+
+</article>
+
+
+<!-- RESEÑA 04 -->
+<article class="review-card">
+
+    <div class="review-card__stars">
+        ★★★★★
+    </div>
+
+    <p class="review-card__text">
+        “Muy buen servicio, quedaron preciosas 🥰”
+    </p>
+
+    <div class="review-card__author">
+        <strong>Melani T.</strong>
+        <span>Cliente de Persianas Vizual</span>
+    </div>
+
+</article>
+
+
+<!-- RESEÑA 05 -->
+<article class="review-card">
+
+    <div class="review-card__stars">
+        ★★★★★
+    </div>
+
+    <p class="review-card__text">
+        “Muy contenta con su atención y trabajo 🙂👌
+        Recomiendo Persianas Vizual Mazatlán.”
+    </p>
+
+    <div class="review-card__author">
+        <strong>Cinthya Q.</strong>
+        <span>Cliente de Persianas Vizual</span>
+    </div>
+
+</article>
+
+
+<!-- RESEÑA 06 -->
+<article class="review-card">
+
+    <div class="review-card__stars">
+        ★★★★★
+    </div>
+
+    <p class="review-card__text">
+        “Excelente servicio, muy buena calidad.”
+    </p>
+
+    <div class="review-card__author">
+        <strong>Victor J. H.</strong>
+        <span>Cliente de Persianas Vizual</span>
+    </div>
+
+</article>
+
+
+<!-- RESEÑA 07 -->
+<article class="review-card">
+
+    <div class="review-card__stars">
+        ★★★★★
+    </div>
+
+    <p class="review-card__text">
+        “Excelente servicio y trato, y rápida instalación.”
+    </p>
+
+    <div class="review-card__author">
+        <strong>Karla E. N.</strong>
+        <span>Cliente de Persianas Vizual</span>
+    </div>
+
+</article>
+
+</div>
+
+</div>
+
+<button
+class="reviews__arrow reviews__arrow--next"
+type="button"
+aria-label="Siguiente reseña">
+<i class="bi bi-arrow-right"></i>
+</button>
+
+</div>
+
+<div class="reviews__dots" aria-label="Navegación de reseñas">
+    <button class="is-active" type="button" aria-label="Reseñas 1"></button>
+    <button type="button" aria-label="Reseñas 2"></button>
+    <button type="button" aria-label="Reseñas 3"></button>
+    <button type="button" aria-label="Reseñas 4"></button>
+    <button type="button" aria-label="Reseñas 5"></button>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROCESO -->
+<section class="section section-light-gray process-section" id="proceso">
+    <div class="container">
+        <div class="section-heading section-heading--center reveal">
+            <div>
+                <div class="eyebrow eyebrow--dark">
+                    <span class="eyebrow__line"></span>
+                    ASÍ DE FÁCIL
+                </div>
+                <h2>De la idea a tus<br><em> ventanas.</em></h2>
+            </div>
+        </div>
+
+        <div class="process">
+            <article class="process__step reveal">
+                <div class="process__icon"><i class="bi bi-chat-dots"></i></div>
+                <h3>Escríbenos</h3>
+                <p>Cuéntanos qué espacio quieres renovar con nuestras persianas o haz tu cotización en línea.</p>
+            </article>
+            <article class="process__step reveal reveal--delay-1">
+                <div class="process__icon"><i class="bi bi-house-check"></i></div>
+                <h3>Visitamos tu domicilio</h3>
+                <p>Vamos a tu domicilio, tomamos medidas y vemos contigo qué opción te conviene.</p>
+            </article>
+            <article class="process__step reveal reveal--delay-2">
+                <div class="process__icon"><i class="bi bi-tools"></i></div>
+                <h3>Fabricamos</h3>
+                <p>Definimos telas, medidas y acabados para mandar a fabricar tus persianas.</p>
+            </article>
+            <article class="process__step reveal reveal--delay-3">
+                <div class="process__icon"><i class="bi bi-check2-circle"></i></div>
+                <h3>Instalamos</h3>
+                <p>Regresamos a instalar y dejamos todo listo para que disfrutes tus espacios.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="section section-white contact" id="contacto">
+    <div class="container contact__grid">
+        <div class="contact__copy reveal">
+            <div class="eyebrow eyebrow--dark">
+                <span class="eyebrow__line"></span>
+                HABLEMOS
+            </div>
+            <h2>Cuéntanos sobre<br><em>tu espacio.</em></h2>
+            <p>
+                ¿Tienes alguna duda, quieres una cotización o prefieres que te ayudemos a elegir? Escríbenos.
+            </p>
+
+            <div class="contact__links">
+                <a class="contact-link" href="tel:+526691632351">
+                    <span class="contact-link__icon contact-link__icon--phone">
+                        <i class="bi bi-telephone-fill"></i>
+                    </span>
+                    <span>
+                        <small>Teléfono</small>
+                        <strong>669 163 2351</strong>
+                    </span>
+                </a>
+                <a class="contact-link" data-whatsapp="cotizar" href="#">
+                    <span class="contact-link__icon contact-link__icon--whatsapp"><i class="bi bi-whatsapp"></i></span>
+                    <span><small>WhatsApp</small><strong>Escríbenos para cotizar <i class="bi bi-arrow-up-right"></i></strong></span>
+                </a>
+                <a class="contact-link" href="https://www.instagram.com/persianasvizualmazatlan/" target="_blank" rel="noopener">
+                    <span class="contact-link__icon contact-link__icon--instagram"><i class="bi bi-instagram"></i></span>
+                    <span><small>Instagram</small><strong>@persianasvizualmazatlan <i class="bi bi-arrow-up-right"></i></strong></span>
+                </a>
+                <a class="contact-link" href="https://www.facebook.com/persianasvizualmazatlan/" target="_blank" rel="noopener">
+                    <span class="contact-link__icon contact-link__icon--messenger"><i class="bi bi-messenger"></i></span>
+                    <span><small>Messenger</small><strong>Envíanos un mensaje <i class="bi bi-arrow-up-right"></i></strong></span>
+                </a>
+            </div>
+            
+
+            <div class="contact__location">
+
+                <div class="contact__location-title">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span>VISÍTANOS</span>
+                </div>
+
+                <strong>Plaza Santa Rita · Local 7</strong>
+
+                <p>
+                    · Hacienda del Seminario · Mazatlán, Sinaloa ·
+                    <span>Previa cita</span>
+                </p>
+
+            </div>
+
+        </div>
+        <form class="contact-form reveal reveal--delay" id="contact-form">
+            <div class="form-grid">
+                <label>
+                    <span>Nombre</span>
+                    <input name="name" type="text" placeholder="Tu nombre" required>
+                </label>
+                <label>
+                    <span>Teléfono</span>
+                    <input name="phone" type="tel" placeholder="Tu teléfono" required>
+                </label>
+            </div>
+
+            <label>
+                <span>¿Qué necesitas?</span>
+                <select name="intent">
+                    <option value="una cotización">Una cotización</option>
+                    <option value="agendar una cita">Agendar una cita</option>
+                    <option value="comprar">Comprar</option>
+                    <option value="información">Más información</option>
+                </select>
+            </label>
+
+            <label>
+                <span>Mensaje</span>
+                <textarea name="message" rows="4" placeholder="Cuéntanos un poco sobre tu espacio"></textarea>
+            </label>
+
+            <button class="btn btn--black btn--large" type="submit"><i class="bi bi-whatsapp"></i> Enviar por WhatsApp</button>
+            <small>Sin costo · Sin compromiso</small>
+        </form>
+    </div>
+</section>
+
+<!-- CTA CORTO -->
+<section class="quick-cta section-dark" id="cotiza">
+    <div class="container quick-cta__inner reveal">
+        <div>
+            <div class="eyebrow">
+                <span class="eyebrow__line"></span>
+                EMPECEMOS
+            </div>
+            <h2>¿Listo para transformar tu espacio?</h2>
+        </div>
+        <a class="btn btn--yellow btn--large" data-whatsapp="cotizar" href="#">Quiero cotizar <i class="bi bi-whatsapp"></i></a>
+    </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="container footer__main">
+
+        <div class="footer__copy">
+            <strong>Persianas Vizual</strong>
+
+            <p>
+                Persianas, cortinas y papel tapiz a la medida en Mazatlán.
+            </p>
+        </div>
+
+        <div class="footer__contact">
+
+            <a href="tel:+526691632351">
+                <i class="bi bi-telephone-fill"></i>
+                669 163 2351
+            </a>
+
+            <a href="#" data-whatsapp="cotizar">
+                <i class="bi bi-whatsapp"></i>
+                WhatsApp
+            </a>
+
+            <span class="footer__location">
+                <i class="bi bi-geo-alt-fill"></i>
+                Plaza Santa Rita · Local 7
+            </span>
+
+        </div>
+
+        <a class="footer__top" href="#inicio">
+            Volver arriba
+            <i class="bi bi-arrow-up"></i>
+        </a>
+
+    </div>
+
+    <div class="container footer__bottom">
+
+        <span>
+            © <span id="year"></span> Persianas Vizual Mazatlán
+        </span>
+
+        <span>
+            Hecho en Mazatlán, Sinaloa.
+        </span>
+
+    </div>
+
+</footer>
+
+<!-- PRODUCT MODAL -->
+<div class="modal" id="product-modal" aria-hidden="true">
+    <div class="modal__backdrop" data-modal-close></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal__close" type="button" aria-label="Cerrar" data-modal-close>×</button>
+        <div class="eyebrow eyebrow--dark">PERSIANAS VIZUAL</div>
+        <h2 id="modal-title">Producto</h2>
+        <p id="modal-description"></p>
+        <a class="btn btn--yellow" data-whatsapp="cotizar" href="#">Cotizar este producto <i class="bi bi-arrow-up-right"></i></a>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

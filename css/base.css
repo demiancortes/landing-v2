@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-h);
+}
+
+body {
+    margin: 0;
+    min-width: 320px;
+    overflow-x: hidden;
+    color: var(--text);
+    background: var(--white);
+    font-family: var(--font);
+    font-size: var(--fs-md);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+body.menu-open,
+body.modal-open { overflow: hidden; }
+
+::selection {
+    color: var(--black);
+    background: var(--yellow);
+}
+
+:focus-visible {
+    outline: 3px solid var(--yellow);
+    outline-offset: 3px;
+}
+
+a { color: inherit; text-decoration: none; }
+
+button,
+input,
+select,
+textarea { font: inherit; }
+
+button { cursor: pointer; }
+
+img,
+svg,
+video { display: block; max-width: 100%; }
+
+h1,
+h2,
+h3,
+p { margin: 0; }
+
+h1,
+h2,
+h3 {
+    line-height: 1.04;
+    letter-spacing: -.045em;
+}
+
+h1,
+h2 { font-weight: var(--fw-extrabold); }
+
+h3 { font-weight: var(--fw-bold); }
+
+p { color: var(--text-muted); }
+
+/* ONE CONTENT WIDTH RULE: every section uses this same container. */
+.container {
+    width: min(calc(100% - (var(--gutter) * 2)), var(--container));
+    margin-inline: auto;
+}
+
+.section {
+    min-height: var(--screen-section);
+    padding-block: var(--section-y);
+    display: flex;
+    align-items: center;
+}
+
+.section-white { color: var(--text); background: var(--white); }
+.section-light-gray { color: var(--text); background: var(--gray-100); }
+.section-dark { color: var(--white); background: var(--black); }
+
+em {
+    color: var(--yellow-dark);
+    font-style: normal;
+}
