@@ -32,7 +32,7 @@
 
 
 .tapiz-catalog {
-	padding-top: 88px;
+	padding-top: 150px;
 	padding-bottom: 100px;
 }
 
@@ -164,7 +164,7 @@
 	}
 
 	.tapiz-catalog {
-		padding-top: 64px;
+		padding-top: 100px;
 		padding-bottom: 72px;
 	}
 
@@ -188,6 +188,10 @@
 
 	.tapiz-card__link {
 		font-size: .82rem;
+	}
+
+	.top-bar {
+		border-bottom: 2px solid rgba(255, 255, 255, .08);
 	}
 
 }
